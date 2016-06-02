@@ -170,6 +170,12 @@ a {
 }
 
 
+.projects img {
+  width: 300px;
+  height: 200px;
+}
+
+
 /* SMALLER SCREENS*/
 @media all and (max-width: 900px) {
   .col-4 {
