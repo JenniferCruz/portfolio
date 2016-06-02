@@ -1,0 +1,139 @@
+/** {
+    /* TODO: Remove test code after completion */
+* {
+    /*border: 1px solid red !important;*/
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* IMPLEMENT OWN FRAMEWORK. 12-Columns layout */
+.grid {
+    /* Center page content and set max-width */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* CSS */
+.header {
+  border-bottom: solid #BCBBBB 4px;
+  margin: 1.5em 0;
+}
+
+
+.artist {
+  text-align: right;
+  color: #747704;
+  margin-bottom: 1.5em;
+}
+
+.artist-name {
+  font-weight: 100;
+  font-size: 4em;
+  margin: auto;
+}
+
+
+.artist-slogan {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+
+.top-image {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projects-title {
+    margin-bottom: 0;
+}
+
+.projects-title h2 {
+  margin: 0.50em;
+  font-weight: 300;
+  color: #BCBBBB;
+  font-size: 2em;
+}
+
+.projects {
+  text-align: center;
+}
+
+
+.project-name {
+    margin: 0.5em 0 0.15em;
+    font-weight: 400;
+    font-size: 2em;
+    color: #747704;
+}
+
+
+.url {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+a {
+  color: #747704;
+}
